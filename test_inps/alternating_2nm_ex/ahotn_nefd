@@ -1,7 +1,7 @@
  CODE: Arbitrarily High Order Transport 3D with or without ITM
  VERSION: Modified versions of codes originally by Y. Azmy, et al.
  AUTHOR: Robert Joseph Zerr
- Ran on  8- 1-2014 at time 13:50:56
+ Ran on  8- 1-2014 at time 14:24:45
 
  -----------------------------------------------------------------------------
 
@@ -26,10 +26,10 @@
  Pointwise convergence criterion =  1.000E-12
  Highest moment converged =     0
 
- Data read from input file: inp4    
+ Data read from input file: inp4_alt
 
- Material map read from file: mat4    
- Cross sections from file: xs      
+ Material map read from file: mat4_alt
+ Cross sections from file: xs_alter
  Source data from file: src_4.da
  Output written to file: alternat
 
@@ -67,7 +67,7 @@
 
  Material map for z-plane:     2
  Row   1   2   3   4 
-  4    2   1   2   1
+  4    1   2   1   2
   3    2   1   2   1
   2    1   2   1   2
   1    2   1   2   1
@@ -81,7 +81,7 @@
 
  Material map for z-plane:     4
  Row   1   2   3   4 
-  4    2   1   2   1
+  4    1   2   1   2
   3    2   1   2   1
   2    1   2   1   2
   1    2   1   2   1
@@ -2306,63 +2306,63 @@
  -------------------------- THE SOLUTION ----------------------------------
 
  Group   1 iterations...
-  Gr  1 It     1 Pos    1   4   4 Mom  0 0 0 DfMx   2.918E+00 Flx   2.918E+00  Time(s)     0.004
-  Gr  1 It     2 Pos    3   2   2 Mom  0 0 0 DfMx   2.657E-01 Flx   9.785E-01  Time(s)     0.004
-  Gr  1 It     3 Pos    3   2   2 Mom  0 0 0 DfMx   5.097E-02 Flx   1.028E+00  Time(s)     0.004
-  Gr  1 It     4 Pos    3   2   2 Mom  0 0 0 DfMx   1.114E-02 Flx   1.040E+00  Time(s)     0.004
-  Gr  1 It     5 Pos    3   2   2 Mom  0 0 0 DfMx   2.442E-03 Flx   1.042E+00  Time(s)     0.004
-  Gr  1 It     6 Pos    2   3   2 Mom  0 0 0 DfMx   5.296E-04 Flx   1.056E+00  Time(s)     0.004
-  Gr  1 It     7 Pos    2   3   2 Mom  0 0 0 DfMx   1.137E-04 Flx   1.056E+00  Time(s)     0.004
-  Gr  1 It     8 Pos    2   3   2 Mom  0 0 0 DfMx   2.413E-05 Flx   1.056E+00  Time(s)     0.004
-  Gr  1 It     9 Pos    2   3   2 Mom  0 0 0 DfMx   5.083E-06 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    10 Pos    2   3   2 Mom  0 0 0 DfMx   1.065E-06 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    11 Pos    2   3   2 Mom  0 0 0 DfMx   2.222E-07 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    12 Pos    2   3   2 Mom  0 0 0 DfMx   4.622E-08 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    13 Pos    2   3   2 Mom  0 0 0 DfMx   9.596E-09 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    14 Pos    2   3   2 Mom  0 0 0 DfMx   1.989E-09 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    15 Pos    2   3   2 Mom  0 0 0 DfMx   4.117E-10 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    16 Pos    2   3   2 Mom  0 0 0 DfMx   8.515E-11 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    17 Pos    2   3   2 Mom  0 0 0 DfMx   1.760E-11 Flx   1.057E+00  Time(s)     0.004
-  Gr  1 It    18 Pos    2   3   2 Mom  0 0 0 DfMx   3.635E-12 Flx   1.057E+00  Time(s)     0.004
+  Gr  1 It     1 Pos    1   4   1 Mom  0 0 0 DfMx   2.748E+00 Flx   2.748E+00  Time(s)     0.004
+  Gr  1 It     2 Pos    2   2   3 Mom  0 0 0 DfMx   2.641E-01 Flx   9.851E-01  Time(s)     0.004
+  Gr  1 It     3 Pos    2   3   2 Mom  0 0 0 DfMx   5.067E-02 Flx   1.035E+00  Time(s)     0.004
+  Gr  1 It     4 Pos    3   3   3 Mom  0 0 0 DfMx   1.108E-02 Flx   1.046E+00  Time(s)     0.004
+  Gr  1 It     5 Pos    2   3   2 Mom  0 0 0 DfMx   2.428E-03 Flx   1.049E+00  Time(s)     0.004
+  Gr  1 It     6 Pos    2   2   3 Mom  0 0 0 DfMx   5.237E-04 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It     7 Pos    3   2   2 Mom  0 0 0 DfMx   1.114E-04 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It     8 Pos    3   3   3 Mom  0 0 0 DfMx   2.343E-05 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It     9 Pos    2   3   2 Mom  0 0 0 DfMx   4.893E-06 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    10 Pos    3   3   3 Mom  0 0 0 DfMx   1.016E-06 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    11 Pos    3   2   2 Mom  0 0 0 DfMx   2.104E-07 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    12 Pos    2   2   3 Mom  0 0 0 DfMx   4.344E-08 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    13 Pos    3   2   2 Mom  0 0 0 DfMx   8.952E-09 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    14 Pos    3   2   2 Mom  0 0 0 DfMx   1.842E-09 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    15 Pos    2   3   2 Mom  0 0 0 DfMx   3.789E-10 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    16 Pos    3   2   2 Mom  0 0 0 DfMx   7.786E-11 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    17 Pos    3   2   2 Mom  0 0 0 DfMx   1.599E-11 Flx   1.050E+00  Time(s)     0.004
+  Gr  1 It    18 Pos    2   2   3 Mom  0 0 0 DfMx   3.284E-12 Flx   1.050E+00  Time(s)     0.004
 
   Group            1  converged in           19  iterations
-  Maximum error estimated:   7.507E-13 <   1.000E-12
- Pos     2    3    2 Moment     0    0    0
+  Maximum error estimated:   6.744E-13 <   1.000E-12
+ Pos     2    2    3 Moment     0    0    0
   Final iteration time     0.004 seconds
 
  ========== Group    1 Converged Scalar Flux Zero Moment ==========
   Plane(z) :            1  Row(j) :            1
-    2.320760E+00  2.206485E+00  1.827230E+00  2.924040E+00
+    2.320847E+00  2.193170E+00  1.836823E+00  2.923995E+00
   Plane(z) :            1  Row(j) :            2
-    2.192480E+00  1.350792E+00  1.526344E+00  1.837431E+00
+    2.193170E+00  1.310507E+00  1.568554E+00  1.836823E+00
   Plane(z) :            1  Row(j) :            3
-    1.877587E+00  1.597250E+00  1.299986E+00  2.146353E+00
+    1.836823E+00  1.568554E+00  1.310507E+00  2.193170E+00
   Plane(z) :            1  Row(j) :            4
-    3.003029E+00  1.851005E+00  2.178641E+00  2.260868E+00
+    2.923995E+00  1.836823E+00  2.193170E+00  2.320847E+00
   Plane(z) :            2  Row(j) :            1
-    2.268048E+00  1.459041E+00  1.730671E+00  1.823975E+00
+    2.266863E+00  1.456056E+00  1.732060E+00  1.824538E+00
   Plane(z) :            2  Row(j) :            2
-    1.464771E+00  1.263379E+00  1.043056E+00  1.735031E+00
+    1.456056E+00  1.241531E+00  1.049696E+00  1.732060E+00
   Plane(z) :            2  Row(j) :            3
-    1.857528E+00  1.056504E+00  1.253199E+00  1.371969E+00
+    1.732060E+00  1.049696E+00  1.241531E+00  1.456056E+00
   Plane(z) :            2  Row(j) :            4
-    2.404843E+00  1.455324E+00  1.742688E+00  1.717627E+00
+    1.824538E+00  1.732060E+00  1.456056E+00  2.266863E+00
   Plane(z) :            3  Row(j) :            1
-    1.823825E+00  1.745476E+00  1.446449E+00  2.267993E+00
+    1.824538E+00  1.732060E+00  1.456056E+00  2.266863E+00
   Plane(z) :            3  Row(j) :            2
-    1.727410E+00  1.085445E+00  1.205415E+00  1.460994E+00
+    1.732060E+00  1.049696E+00  1.241531E+00  1.456056E+00
   Plane(z) :            3  Row(j) :            3
-    1.498691E+00  1.263813E+00  1.046138E+00  1.685390E+00
+    1.456056E+00  1.241531E+00  1.049696E+00  1.732060E+00
   Plane(z) :            3  Row(j) :            4
-    2.381578E+00  1.449451E+00  1.751993E+00  1.740453E+00
+    2.266863E+00  1.456056E+00  1.732060E+00  1.824538E+00
   Plane(z) :            4  Row(j) :            1
-    2.925183E+00  1.840317E+00  2.190100E+00  2.319579E+00
+    2.923995E+00  1.836823E+00  2.193170E+00  2.320847E+00
   Plane(z) :            4  Row(j) :            2
-    1.847571E+00  1.596834E+00  1.300615E+00  2.196853E+00
+    1.836823E+00  1.568554E+00  1.310507E+00  2.193170E+00
   Plane(z) :            4  Row(j) :            3
-    2.362788E+00  1.319120E+00  1.581658E+00  1.719167E+00
+    2.193170E+00  1.310507E+00  1.568554E+00  1.836823E+00
   Plane(z) :            4  Row(j) :            4
-    3.058993E+00  1.849516E+00  2.183765E+00  2.216439E+00
+    2.320847E+00  2.193170E+00  1.836823E+00  2.923995E+00
 
 
   0 warnings have been issued
@@ -2374,9 +2374,9 @@
   Fortran95 Timing Estimates with CPU_TIME...
 
      WorkDone   Absolute(s)      Difference(s)
-     InputWrk       0.019         0.019
-     SolveTot       0.090         0.071
-     PrintOut       0.090         0.000
+     InputWrk       0.017         0.017
+     SolveTot       0.088         0.072
+     PrintOut       0.089         0.000
 
 
 *********************   END PROGRAM  ************************

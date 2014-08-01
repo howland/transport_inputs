@@ -1,7 +1,7 @@
  CODE: Arbitrarily High Order Transport 3D with or without ITM
  VERSION: Modified versions of codes originally by Y. Azmy, et al.
  AUTHOR: Robert Joseph Zerr
- Ran on  8- 1-2014 at time 13:54:52
+ Ran on  8- 1-2014 at time 14:24:46
 
  -----------------------------------------------------------------------------
 
@@ -26,10 +26,10 @@
  Pointwise convergence criterion =  1.000E-12
  Highest moment converged =     0
 
- Data read from input file: inp4    
+ Data read from input file: inp4_alt
 
- Material map read from file: mat4    
- Cross sections from file: xs      
+ Material map read from file: mat4_alt
+ Cross sections from file: xs_alter
  Source data from file: src_4.da
  Output written to file: alternat
 
@@ -67,7 +67,7 @@
 
  Material map for z-plane:     2
  Row   1   2   3   4 
-  4    2   1   2   1
+  4    1   2   1   2
   3    2   1   2   1
   2    1   2   1   2
   1    2   1   2   1
@@ -81,7 +81,7 @@
 
  Material map for z-plane:     4
  Row   1   2   3   4 
-  4    2   1   2   1
+  4    1   2   1   2
   3    2   1   2   1
   2    1   2   1   2
   1    2   1   2   1
@@ -230,54 +230,6 @@
  Source for Group:   1 Moment  0 1 0  z-plane(k):   4 Row(j):   4
   -6.977E-02-5.767E-02-5.767E-02-6.977E-02
 
- Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   1
-  -9.618E-03-2.808E-03 2.808E-03 9.618E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   2
-  -2.808E-03-8.165E-04 8.165E-04 2.808E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   3
-   2.808E-03 8.165E-04-8.165E-04-2.808E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   4
-   9.618E-03 2.808E-03-2.808E-03-9.618E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   1
-  -6.588E-03-1.909E-03 1.909E-03 6.588E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   2
-  -1.909E-03-5.518E-04 5.518E-04 1.909E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   3
-   1.909E-03 5.518E-04-5.518E-04-1.909E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   4
-   6.588E-03 1.909E-03-1.909E-03-6.588E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   1
-  -6.588E-03-1.909E-03 1.909E-03 6.588E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   2
-  -1.909E-03-5.518E-04 5.518E-04 1.909E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   3
-   1.909E-03 5.518E-04-5.518E-04-1.909E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   4
-   6.588E-03 1.909E-03-1.909E-03-6.588E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   1
-  -9.618E-03-2.808E-03 2.808E-03 9.618E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   2
-  -2.808E-03-8.165E-04 8.165E-04 2.808E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   3
-   2.808E-03 8.165E-04-8.165E-04-2.808E-03
-
- Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   4
-   9.618E-03 2.808E-03-2.808E-03-9.618E-03
-
  Source for Group:   1 Moment  0 0 1  z-plane(k):   1 Row(j):   1
    1.035E-01 7.814E-02 7.814E-02 1.035E-01
 
@@ -325,150 +277,6 @@
 
  Source for Group:   1 Moment  0 0 1  z-plane(k):   4 Row(j):   4
   -1.035E-01-7.814E-02-7.814E-02-1.035E-01
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   1
-  -2.047E-02-5.782E-03 5.782E-03 2.047E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   2
-  -1.736E-02-4.860E-03 4.860E-03 1.736E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   3
-  -1.736E-02-4.860E-03 4.860E-03 1.736E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   4
-  -2.047E-02-5.782E-03 5.782E-03 2.047E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   1
-  -5.636E-03-1.592E-03 1.592E-03 5.636E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   2
-  -4.772E-03-1.336E-03 1.336E-03 4.772E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   3
-  -4.772E-03-1.336E-03 1.336E-03 4.772E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   4
-  -5.636E-03-1.592E-03 1.592E-03 5.636E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   1
-   5.636E-03 1.592E-03-1.592E-03-5.636E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   2
-   4.772E-03 1.336E-03-1.336E-03-4.772E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   3
-   4.772E-03 1.336E-03-1.336E-03-4.772E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   4
-   5.636E-03 1.592E-03-1.592E-03-5.636E-03
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   1
-   2.047E-02 5.782E-03-5.782E-03-2.047E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   2
-   1.736E-02 4.860E-03-4.860E-03-1.736E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   3
-   1.736E-02 4.860E-03-4.860E-03-1.736E-02
-
- Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   4
-   2.047E-02 5.782E-03-5.782E-03-2.047E-02
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   1
-  -2.047E-02-1.736E-02-1.736E-02-2.047E-02
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   2
-  -5.782E-03-4.860E-03-4.860E-03-5.782E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   3
-   5.782E-03 4.860E-03 4.860E-03 5.782E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   4
-   2.047E-02 1.736E-02 1.736E-02 2.047E-02
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   1
-  -5.636E-03-4.772E-03-4.772E-03-5.636E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   2
-  -1.592E-03-1.336E-03-1.336E-03-1.592E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   3
-   1.592E-03 1.336E-03 1.336E-03 1.592E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   4
-   5.636E-03 4.772E-03 4.772E-03 5.636E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   1
-   5.636E-03 4.772E-03 4.772E-03 5.636E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   2
-   1.592E-03 1.336E-03 1.336E-03 1.592E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   3
-  -1.592E-03-1.336E-03-1.336E-03-1.592E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   4
-  -5.636E-03-4.772E-03-4.772E-03-5.636E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   1
-   2.047E-02 1.736E-02 1.736E-02 2.047E-02
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   2
-   5.782E-03 4.860E-03 4.860E-03 5.782E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   3
-  -5.782E-03-4.860E-03-4.860E-03-5.782E-03
-
- Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   4
-  -2.047E-02-1.736E-02-1.736E-02-2.047E-02
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   1
-   2.462E-03 7.300E-04-7.300E-04-2.462E-03
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   2
-   7.300E-04 2.152E-04-2.152E-04-7.300E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   3
-  -7.300E-04-2.152E-04 2.152E-04 7.300E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   4
-  -2.462E-03-7.300E-04 7.300E-04 2.462E-03
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   1
-   6.830E-04 2.023E-04-2.023E-04-6.830E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   2
-   2.023E-04 5.960E-05-5.960E-05-2.023E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   3
-  -2.023E-04-5.960E-05 5.960E-05 2.023E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   4
-  -6.830E-04-2.023E-04 2.023E-04 6.830E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   1
-  -6.830E-04-2.023E-04 2.023E-04 6.830E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   2
-  -2.023E-04-5.960E-05 5.960E-05 2.023E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   3
-   2.023E-04 5.960E-05-5.960E-05-2.023E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   4
-   6.830E-04 2.023E-04-2.023E-04-6.830E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   1
-  -2.462E-03-7.300E-04 7.300E-04 2.462E-03
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   2
-  -7.300E-04-2.152E-04 2.152E-04 7.300E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   3
-   7.300E-04 2.152E-04-2.152E-04-7.300E-04
-
- Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   4
-   2.462E-03 7.300E-04-7.300E-04-2.462E-03
 
  Fixed inflow boundary conditions:
 
@@ -1154,63 +962,63 @@
  -------------------------- THE SOLUTION ----------------------------------
 
  Group   1 iterations...
-  Gr  1 It     1 Pos    1   4   4 Mom  0 0 0 DfMx   2.916E+00 Flx   2.916E+00  Time(s)     0.007
-  Gr  1 It     2 Pos    3   2   2 Mom  0 0 0 DfMx   2.833E-01 Flx   9.627E-01  Time(s)     0.002
-  Gr  1 It     3 Pos    3   2   2 Mom  0 0 0 DfMx   5.319E-02 Flx   1.014E+00  Time(s)     0.003
-  Gr  1 It     4 Pos    3   3   3 Mom  0 0 0 DfMx   1.137E-02 Flx   1.021E+00  Time(s)     0.003
-  Gr  1 It     5 Pos    3   3   3 Mom  0 0 0 DfMx   2.450E-03 Flx   1.023E+00  Time(s)     0.002
-  Gr  1 It     6 Pos    3   3   3 Mom  0 0 0 DfMx   5.202E-04 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It     7 Pos    3   3   3 Mom  0 0 0 DfMx   1.090E-04 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It     8 Pos    3   3   3 Mom  0 0 0 DfMx   2.261E-05 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It     9 Pos    3   3   3 Mom  0 0 0 DfMx   4.658E-06 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    10 Pos    3   3   3 Mom  0 0 0 DfMx   9.548E-07 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    11 Pos    3   3   3 Mom  0 0 0 DfMx   1.951E-07 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    12 Pos    3   3   3 Mom  0 0 0 DfMx   3.975E-08 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    13 Pos    3   3   3 Mom  0 0 0 DfMx   8.087E-09 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    14 Pos    3   3   3 Mom  0 0 0 DfMx   1.643E-09 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    15 Pos    3   3   3 Mom  0 0 0 DfMx   3.336E-10 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    16 Pos    3   3   3 Mom  0 0 0 DfMx   6.770E-11 Flx   1.024E+00  Time(s)     0.002
-  Gr  1 It    17 Pos    3   3   3 Mom  0 0 0 DfMx   1.373E-11 Flx   1.024E+00  Time(s)     0.003
-  Gr  1 It    18 Pos    3   3   3 Mom  0 0 0 DfMx   2.785E-12 Flx   1.024E+00  Time(s)     0.002
+  Gr  1 It     1 Pos    4   1   1 Mom  0 0 0 DfMx   2.698E+00 Flx   2.698E+00  Time(s)     0.001
+  Gr  1 It     2 Pos    3   3   3 Mom  0 0 0 DfMx   2.812E-01 Flx   9.737E-01  Time(s)     0.001
+  Gr  1 It     3 Pos    3   2   2 Mom  0 0 0 DfMx   5.242E-02 Flx   1.025E+00  Time(s)     0.002
+  Gr  1 It     4 Pos    2   3   2 Mom  0 0 0 DfMx   1.108E-02 Flx   1.036E+00  Time(s)     0.002
+  Gr  1 It     5 Pos    2   2   3 Mom  0 0 0 DfMx   2.345E-03 Flx   1.039E+00  Time(s)     0.002
+  Gr  1 It     6 Pos    3   3   3 Mom  0 0 0 DfMx   4.892E-04 Flx   1.039E+00  Time(s)     0.002
+  Gr  1 It     7 Pos    3   2   2 Mom  0 0 0 DfMx   1.007E-04 Flx   1.039E+00  Time(s)     0.002
+  Gr  1 It     8 Pos    2   3   2 Mom  0 0 0 DfMx   2.056E-05 Flx   1.039E+00  Time(s)     0.002
+  Gr  1 It     9 Pos    3   3   3 Mom  0 0 0 DfMx   4.167E-06 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    10 Pos    2   3   2 Mom  0 0 0 DfMx   8.412E-07 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    11 Pos    3   2   2 Mom  0 0 0 DfMx   1.693E-07 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    12 Pos    2   3   2 Mom  0 0 0 DfMx   3.400E-08 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    13 Pos    3   3   3 Mom  0 0 0 DfMx   6.820E-09 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    14 Pos    2   3   2 Mom  0 0 0 DfMx   1.366E-09 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    15 Pos    2   2   3 Mom  0 0 0 DfMx   2.736E-10 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    16 Pos    2   2   3 Mom  0 0 0 DfMx   5.476E-11 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    17 Pos    3   2   2 Mom  0 0 0 DfMx   1.096E-11 Flx   1.039E+00  Time(s)     0.001
+  Gr  1 It    18 Pos    2   3   2 Mom  0 0 0 DfMx   2.191E-12 Flx   1.039E+00  Time(s)     0.001
 
   Group            1  converged in           19  iterations
-  Maximum error estimated:   5.645E-13 <   1.000E-12
- Pos     3    3    3 Moment     0    0    0
-  Final iteration time     0.002 seconds
+  Maximum error estimated:   4.380E-13 <   1.000E-12
+ Pos     3    2    2 Moment     0    0    0
+  Final iteration time     0.001 seconds
 
  ========== Group    1 Converged Scalar Flux Zero Moment ==========
   Plane(z) :            1  Row(j) :            1
-    2.406365E+00  2.147215E+00  1.877985E+00  2.906366E+00
+    2.420725E+00  2.104426E+00  1.900442E+00  2.889886E+00
   Plane(z) :            1  Row(j) :            2
-    2.141698E+00  1.328069E+00  1.448657E+00  1.881780E+00
+    2.104426E+00  1.299636E+00  1.433389E+00  1.900442E+00
   Plane(z) :            1  Row(j) :            3
-    1.930889E+00  1.511157E+00  1.279619E+00  2.090673E+00
+    1.900442E+00  1.433389E+00  1.299636E+00  2.104426E+00
   Plane(z) :            1  Row(j) :            4
-    2.999363E+00  1.904396E+00  2.120254E+00  2.336280E+00
+    2.889886E+00  1.900442E+00  2.104426E+00  2.420725E+00
   Plane(z) :            2  Row(j) :            1
-    2.242874E+00  1.491708E+00  1.671795E+00  1.882706E+00
+    2.224013E+00  1.498666E+00  1.647904E+00  1.894524E+00
   Plane(z) :            2  Row(j) :            2
-    1.491866E+00  1.168332E+00  1.028597E+00  1.681441E+00
+    1.498666E+00  1.119896E+00  1.039153E+00  1.647904E+00
   Plane(z) :            2  Row(j) :            3
-    1.807232E+00  1.053619E+00  1.142958E+00  1.393000E+00
+    1.647904E+00  1.039153E+00  1.119896E+00  1.498666E+00
   Plane(z) :            2  Row(j) :            4
-    2.397095E+00  1.483346E+00  1.693230E+00  1.763179E+00
+    1.894524E+00  1.647904E+00  1.498666E+00  2.224013E+00
   Plane(z) :            3  Row(j) :            1
-    1.884146E+00  1.685594E+00  1.479099E+00  2.242977E+00
+    1.894524E+00  1.647904E+00  1.498666E+00  2.224013E+00
   Plane(z) :            3  Row(j) :            2
-    1.675998E+00  1.060996E+00  1.127564E+00  1.486491E+00
+    1.647904E+00  1.039153E+00  1.119896E+00  1.498666E+00
   Plane(z) :            3  Row(j) :            3
-    1.533040E+00  1.178328E+00  1.023933E+00  1.627007E+00
+    1.498666E+00  1.119896E+00  1.039153E+00  1.647904E+00
   Plane(z) :            3  Row(j) :            4
-    2.365287E+00  1.485101E+00  1.691397E+00  1.792643E+00
+    2.224013E+00  1.498666E+00  1.647904E+00  1.894524E+00
   Plane(z) :            4  Row(j) :            1
-    2.907103E+00  1.892095E+00  2.132810E+00  2.404058E+00
+    2.889886E+00  1.900442E+00  2.104426E+00  2.420725E+00
   Plane(z) :            4  Row(j) :            2
-    1.892495E+00  1.498877E+00  1.290124E+00  2.145656E+00
+    1.900442E+00  1.433389E+00  1.299636E+00  2.104426E+00
   Plane(z) :            4  Row(j) :            3
-    2.314829E+00  1.327856E+00  1.457910E+00  1.755825E+00
+    2.104426E+00  1.299636E+00  1.433389E+00  1.900442E+00
   Plane(z) :            4  Row(j) :            4
-    3.060471E+00  1.898508E+00  2.132527E+00  2.285395E+00
+    2.420725E+00  2.104426E+00  1.900442E+00  2.889886E+00
 
 
   0 warnings have been issued
@@ -1222,9 +1030,9 @@
   Fortran95 Timing Estimates with CPU_TIME...
 
      WorkDone   Absolute(s)      Difference(s)
-     InputWrk       0.015         0.015
-     SolveTot       0.066         0.051
-     PrintOut       0.066         0.000
+     InputWrk       0.004         0.004
+     SolveTot       0.033         0.030
+     PrintOut       0.034         0.000
 
 
 *********************   END PROGRAM  ************************

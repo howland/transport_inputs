@@ -9,9 +9,9 @@ Test problem 3d
 2  2         x-start and -end BCs
 2  2         y-start and -end BCs
 2  2         z-start and -end BCs
-mat4       
+mat4_alternating       
             
-xs           
+xs_alternating           
 src_4.dat      
 bc_4.dat
 phi_4.ahot

@@ -1,0 +1,9 @@
+#! /bin/bash
+
+../spacial_solvers_3d/AHOTN/ahotn_nefd.exe inp4_alternating alternating_2nm_ex/ahotn_nefd
+../spacial_solvers_3d/AHOTN/LL.exe inp4_alternating alternating_2nm_ex/ahotn_ll
+../spacial_solvers_3d/AHOTN/LN.exe inp4_alternating alternating_2nm_ex/ahot_ln
+../spacial_solvers_3d/DGFEM/DGCTD.exe inp4_alternating alternating_2nm_ex/DGFEM_DENSE
+../spacial_solvers_3d/DGFEM/DGFEM.exe inp4_alternating alternating_2nm_ex/DGFEM_LAGRANGE
+../spacial_solvers_3d/DGFEM/LD.exe inp4_alternating alternating_2nm_ex/DGFEM_LD
+../spacial_solvers_3d/SCT-Step/ahotn0-sct.exe inp4_alternating_sct alternating_2nm_ex/SCTSTEP
