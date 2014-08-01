@@ -1,0 +1,468 @@
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       2    2       0.70  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         6         1    0.1513E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576276E+00  0.495745E-01  0.363978E-01  0.223767E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.125973E-01
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.454606E-01
+Length:  0.400000E+01
+         0.22         0.45  CPU & Total Time (sec)
+=============================================================
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       4    4       1.07  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         6         1    0.5240E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.577013E+00  0.494500E-01  0.413220E-01  0.225234E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.793535E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.453052E-01
+Length:  0.400000E+01
+         0.53         0.74  CPU & Total Time (sec)
+=============================================================
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8       2.48  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         6         1    0.6778E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576933E+00  0.496890E-01  0.430650E-01  0.225918E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.553084E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452991E-01
+Length:  0.400000E+01
+         1.87         2.08  CPU & Total Time (sec)
+=============================================================
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      16   16       7.98  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         7         1    0.7621E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576777E+00  0.498621E-01  0.437023E-01  0.226245E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.445379E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452658E-01
+Length:  0.400000E+01
+         8.55         8.88  CPU & Total Time (sec)
+=============================================================
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      32   32      29.74  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         7         1    0.6011E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576683E+00  0.499495E-01  0.439515E-01  0.226405E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.389493E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452615E-01
+Length:  0.400000E+01
+        33.91        34.40  CPU & Total Time (sec)
+=============================================================
+    0 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      64   64     116.27  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         6         1    0.5838E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576636E+00  0.499890E-01  0.440572E-01  0.226485E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.361663E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452594E-01
+Length:  0.400000E+01
+       114.88       117.13  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       2    2       1.13  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         5         1    0.8270E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576132E+00  0.515927E-01  0.460210E-01  0.227272E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt: -0.238913E-03
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.454693E-01
+Length:  0.400000E+01
+         0.54         0.70  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       4    4       2.36  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         6         1    0.2168E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576441E+00  0.502395E-01  0.442843E-01  0.226598E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.329753E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452372E-01
+Length:  0.400000E+01
+         2.19         2.39  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8       7.23  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         5         1    0.5044E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576554E+00  0.500748E-01  0.441714E-01  0.226570E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.331256E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452586E-01
+Length:  0.400000E+01
+         7.13         7.40  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      16   16      26.56  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.6572E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576586E+00  0.500314E-01  0.441529E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333482E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452574E-01
+Length:  0.400000E+01
+        22.55        22.81  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      32   32     103.61  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.1908E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576593E+00  0.500233E-01  0.441515E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333669E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452575E-01
+Length:  0.400000E+01
+        94.30        95.01  CPU & Total Time (sec)
+=============================================================
+    1 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      64   64     411.32  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.7345E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441515E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333700E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452575E-01
+Length:  0.400000E+01
+       368.99       372.37  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       2    2       1.84  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.6217E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576494E+00  0.497517E-01  0.436956E-01  0.226350E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.468658E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.451315E-01
+Length:  0.400000E+01
+         1.25         1.45  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       4    4       4.51  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         5         1    0.1078E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576574E+00  0.500417E-01  0.441435E-01  0.226563E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333173E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452607E-01
+Length:  0.400000E+01
+         5.81         6.08  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8      15.13  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.1301E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576592E+00  0.500241E-01  0.441501E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333780E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452574E-01
+Length:  0.400000E+01
+        18.34        18.64  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      16   16      57.50  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.3997E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441513E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333698E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452576E-01
+Length:  0.400000E+01
+        72.57        73.12  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      32   32     226.72  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         3         1    0.3548E-05  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500218E-01  0.441515E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333704E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452575E-01
+Length:  0.400000E+01
+       229.31       229.99  CPU & Total Time (sec)
+=============================================================
+    2 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4      64   64     903.07  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+      2051     50.07  # & % Negative Scalar Fluxes
+        11         1    0.2258E+03  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.165752E+12 -0.168291E+12  0.178926E+12  0.958612E+09
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333704E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452575E-01
+Length:  0.400000E+01
+      3141.52      3143.46  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       2    2       2.81  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.4113E-07  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576571E+00  0.501928E-01  0.442774E-01  0.226633E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.295189E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452925E-01
+Length:  0.400000E+01
+         3.09         3.32  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       4    4       7.50  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.3885E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576591E+00  0.500242E-01  0.441527E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.334002E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452560E-01
+Length:  0.400000E+01
+        12.02        12.32  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8      26.19  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         3         1    0.7155E-05  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441513E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333682E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452576E-01
+Length:  0.400000E+01
+        35.91        36.22  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8      26.19  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         3         1    0.7155E-05  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441513E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333682E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452576E-01
+Length:  0.400000E+01
+        35.91        36.22  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8      26.19  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         3         1    0.7155E-05  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441513E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333682E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452576E-01
+Length:  0.400000E+01
+        35.91        36.22  CPU & Total Time (sec)
+=============================================================
+    3 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       8    8      26.19  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         3         1    0.7155E-05  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576594E+00  0.500220E-01  0.441513E-01  0.226565E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333682E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452576E-01
+Length:  0.400000E+01
+        35.91        36.22  CPU & Total Time (sec)
+=============================================================
+    4 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       2    2       4.06  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         0      0.00  # & % Negative Scalar Fluxes
+         4         1    0.1098E-06  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux:  0.576589E+00  0.499754E-01  0.441354E-01  0.226548E+00
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.336444E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452656E-01
+Length:  0.400000E+01
+         6.93         7.19  CPU & Total Time (sec)
+=============================================================
+    4 -Order Charc: Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+       4       4    4      11.34  Quad Ord, x-, y-mesh, Req Storage(KB)
+    1-Group Scalar Flux Edits:
+         9     56.25  # & % Negative Scalar Fluxes
+        21         1    0.6916E+03  # Its, Moms Converged, Max Convergence
+Region:      1             2             3             4
+AvFlux: -0.172097E+48  0.178615E+48 -0.738246E+47  0.169889E+47
+Volume:  0.100000E+01  0.100000E+01  0.100000E+01  0.400000E+01
+     x=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.333722E-02
+Length:  0.100000E+01
+     y=Const Angular Flux Edits:
+Surfce:      1
+AvCrnt:  0.452577E-01
+Length:  0.400000E+01
+       143.15       143.42  CPU & Total Time (sec)
+=============================================================

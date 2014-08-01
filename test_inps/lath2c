@@ -1,0 +1,29 @@
+             Name of Dump-File, Leave 8 Spaces for New Run
+Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension
+4 1          Order & Method: 0/1 => Nodal/Characteristic
+4  1         Order & Qudrature Type: 0/1/2 => TWOTRAN/EQN/Read-in
+2   2        Number of Nodes in x- & y-Directions
+1   1        Number of Groups & Number of Materials
+2*2.                       x-size of cells
+2*.5                        y-size of cells
+1  1                        Material Assignment by Row
+1  1
+1  0         Left & Right BCs
+1  0         Bottom & Left BCs
+lath.xs      Name of Cross Sections File
+lath.sr2     Name of External Source File
+1.e-6  20    0   1.e-10     Conv.Crit., Max.Its., Moments Converged, Tolerence
+flxn0        Name of Initial Guess File, Leave 8 Spaces for Zero IG
+             Name of Converged Flux Moments File, Leave 8 Spaces to Deselect
+0 1.e-14     Frequency of Checking Solution, and Tolerence
+c0.2         Name of Output File
+1 1 0 1 0    Print Controls: Quadrature, Material, Source, Xsecs, Flux
+smryc1
+4  0         # Scalar Flux Edit Boxes, # Composite Boxes
+1 1 1 1      Lower-Left, and Upper-Right Corner Indices of Box 1
+2 1 2 1      Lower-Left, and Upper-Right Corner Indices of Box 2
+2 2 2 2      Lower-Left, and Upper-Right Corner Indices of Box 4
+1 1 2 2      Lower-Left, and Upper-Right Corner Indices of Box 4
+1  1         # x=Const, y=Const Surfaces for Angular Flux Edits
+2   1 2      x-Position, Init & Finl y-Indices for x-Surf 1
+2   1 2      y-Position, Init & Finl x-Indices for y-Surf 1

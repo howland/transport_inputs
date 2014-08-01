@@ -1,0 +1,7 @@
+Lathrop's Test Problem
+0            Select Non-Full External Source Specification
+1            Number of Source Instructions
+1  1  1      Group, x-, & y-Moment of External Source Instruction
+1  1         Initial and Final x-Nodes for Source Instruction
+1  1         Initial and Final y-Nodes for Source Instruction
+1.           Magnitude for Source Instruction
