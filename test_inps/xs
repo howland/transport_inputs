@@ -1,9 +1,9 @@
 ! Cross section file
 ! Material # 1
 ! Group #1
-2.0          ! Total XS
-0.0         ! Scattering matrix
+5.894          ! Total XS
+1.8       ! Scattering matrix
 ! Material # 2
 ! Group #1
-!0.3          ! Total XS
-!0.1          ! Scattering matrix
+1.237          ! Total XS
+0.12       ! Scattering matrix

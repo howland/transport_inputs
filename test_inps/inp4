@@ -2,7 +2,7 @@ Test problem 3d
 1 0          Order & Method: 0/1 => AHOT-N-SI/AHOT-N-ITM
 4 1          Order & Qudrature Type: 0/1/2 => TWOTRAN/EQN/Read-in
 4 4 4       Number of Nodes in x- y- & z-Directions
-1 1          Number of Groups & Number of Materials
+1 2          Number of Groups & Number of Materials
 4*0.25                     x-size of cells
 4*0.25                      y-size of cells
 4*0.25                z-size of cells
