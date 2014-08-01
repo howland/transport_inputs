@@ -1,0 +1,9 @@
+PATHS:
+
+../spacial_solvers_3d/AHOTN/ahotn_nefd.exe
+../spacial_solver_3d/AHOTN/LL.exe
+../spacial_solver_3d/AHOTN/LN.exe
+../spacial_solver_3d/DGFEM/DGCTD.exe
+../spacial_solver_3d/DGFEM/DGFEM.exe
+../spacial_solver_3d/DGFEM/LD.exe
+../spacial_solvers_3d/SCT-Step/ahotn0-sct.exe

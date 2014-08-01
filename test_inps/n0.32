@@ -1,0 +1,160 @@
+          Arbitrarily-High Order Nodal Integral Method for the
+                   Transport Equation in x-y Geometry
+                            3  Order
+
+Modified Lathrop Problem: Rect. Mesh, High Absorption, Large Dimension          
+
+
+
+
+
+
+  Storage requirements:
+
+     Order of Angular Quadrature    =   4
+     Number of Nodes in x-Direct.   =  32
+     Number of Nodes in y-Direct.   =  32
+     Number of Energy Groups        =   1
+     Number of Materials            =   1
+
+     Total Required Length (KB)     =       399.05
+     Total Requested Length (KB)    =      3560.08
+
+
+
+  EQN Type Quadrature
+      DIR        Mu              Eta             Wt
+         1    0.350021E+00    0.350021E+00    0.833333E-01
+         2    0.350021E+00    0.868890E+00    0.833333E-01
+         3    0.868890E+00    0.350021E+00    0.833333E-01
+
+  Iteration Parameters:
+
+     Maximum Number of Iterations   =      20
+     Pointwise Convergence Crit.    =      0.10E-05
+     Scalar Flux Moments Converged  =       3
+
+
+
+  The Boundary Conditions:
+     Bottom BC =   1
+     Top    BC =   0
+     Left   BC =   1
+     Right  BC =   0
+
+
+
+  Node Size in x-dimension:
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00   0.12500E+00
+   0.12500E+00   0.12500E+00
+  Node Size in y-dimension:
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01   0.31250E-01
+   0.31250E-01   0.31250E-01
+
+
+Material Assignment:
+Row   1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6
+  1    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  2    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  3    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  4    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  5    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  6    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  7    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  8    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+  9    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 10    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 11    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 12    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 13    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 14    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 15    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 16    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 17    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 18    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 19    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 20    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 21    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 22    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 23    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 24    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 25    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 26    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 27    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 28    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 29    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 30    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 31    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 32    1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+
+
+
+  Cross Section Data:
+   Mat   Grp         Total X/S
+    1    1      0.100000E+01     Out-Scatter Matrix:
+  0.100000E+00
+
+
+
+  External Source Read-in from file: lath.s32
+
+
+
+*******************    THE SOLUTION    **********************
+
+
+Gr  1 It     1 Pos    3   1 Mom  0 0 DfMx   0.652E+00 Flx   0.652E+00
+Gr  1 It     2 Pos   29   1 Mom  0 0 DfMx   0.411E+04 Flx   0.965E-03
+Gr  1 It     3 Pos   31   2 Mom  0 0 DfMx   0.173E+00 Flx   0.698E-03
+Gr  1 It     4 Pos   31   2 Mom  0 0 DfMx   0.173E-01 Flx   0.710E-03
+Gr  1 It     5 Pos   31   2 Mom  0 0 DfMx   0.172E-02 Flx   0.711E-03
+Gr  1 It     6 Pos   31   2 Mom  0 0 DfMx   0.159E-03 Flx   0.711E-03
+Gr  1 It     7 Pos   31   2 Mom  0 0 DfMx   0.139E-04 Flx   0.711E-03
+Gr  1 It     8 Pos   31   2 Mom  0 0 DfMx   0.118E-05 Flx   0.711E-03
+=======================  GROUP  1  =========================
+     Converged in        9 Iterations, to:
+    0.9737E-07
+  Printing Converged Scalar Flux NOT Selected
+
+
+   1-Group Scalar Flux Edits:
+
+     Number of Negative Fluxes:            0
+     Percent of Negative Fluxes:           0.00
+
+     Number of Edit Boxes:                 4
+     Box #       LL Corner      UR Corner         Volume            Av. Flux
+        1          1    1        16   16       0.100000E+01       0.576594E+00
+        2         17    1        32   16       0.100000E+01       0.500217E-01
+        3         17   17        32   32       0.100000E+01       0.441516E-01
+        4          1    1        32   32       0.400000E+01       0.226565E+00
+
+     Number of Composite Boxes:      0
+     Box #       Box 1         Box 2           Volume        Av. Flux
+
+
+  x=Const Angular Flux Edits:
+     Number of Surfaces:             1
+     Surf     Dir      Col      In & Fin Row        Length           AvCurnt
+        1     Pos      32        1       32      0.100000E+01      0.333704E-02
+
+
+  y=Const Angular Flux Edits:
+     Number of Surfaces:             1
+     Surf     Dir      Row      In & Fin Col        Length           AvCurnt
+        1     Pos      32        1       32      0.400000E+01      0.452575E-01
+===================  END GROUP  1  =========================
+
+     CPU time:  1949.49 s, Total time:  1951.63 s
+
+*******************    END SOLUTION    **********************
