@@ -1,0 +1,1222 @@
+ CODE: Arbitrarily High Order Transport 3D with or without ITM
+ VERSION: Modified versions of codes originally by Y. Azmy, et al.
+ AUTHOR: Robert Joseph Zerr
+ Ran on  8- 4-2014 at time 20:57:29
+
+ -----------------------------------------------------------------------------
+
+   No input errors have been detected.
+
+
+ -------------------- BEGIN INPUT ECHO ------------------------------------
+
+
+ Test problem 3d                                                                 
+ AHOT Order =     1
+ AHOT-N-3D Method
+ Angular Order N =     4
+ Number of x-cells =     4
+ Number of y-cells =     4
+ Number of z-cells =     4
+ Number of energy groups =     1
+ Number of materials =     1
+
+ Iteration Control Parameters
+ Maximum number of iterations =  6000
+ Pointwise convergence criterion =  1.000E-12
+ Highest moment converged =     0
+
+ Data read from input file: inp4_sim
+
+ Material map read from file: mat4_sim
+ Cross sections from file: xs_simpl
+ Source data from file: src_4.da
+ Output written to file: simple_e
+
+ EQN-type Discrete Ordinates/Octant
+  n    mu      eta       xi       w
+  1  0.35002  0.35002  0.86889  0.04167
+  2  0.35002  0.86889  0.35002  0.04167
+  3  0.86889  0.35002  0.35002  0.04167
+
+ Boundary Conditions: 0-Vacuum, 1-Reflective
+ x-lo  x-hi  y-lo  y-hi  z-lo  z-hi
+  2     2     2     2     2     2
+
+
+ x-dimension of cells 1 to     4
+   2.500E-01 2.500E-01 2.500E-01 2.500E-01
+
+ y-dimension of cells 1 to     4
+   2.500E-01 2.500E-01 2.500E-01 2.500E-01
+
+ z-dimension of cells 1 to     4
+   2.500E-01 2.500E-01 2.500E-01 2.500E-01
+
+ Cross Section Data
+  Material    Group  Sigma_t      Sigma_s
+     1           1    1.100E+00    2.000E-01
+
+ Material map for z-plane:     1
+ Row   1   2   3   4 
+  4    1   1   1   1
+  3    1   1   1   1
+  2    1   1   1   1
+  1    1   1   1   1
+
+ Material map for z-plane:     2
+ Row   1   2   3   4 
+  4    1   1   1   1
+  3    1   1   1   1
+  2    1   1   1   1
+  1    1   1   1   1
+
+ Material map for z-plane:     3
+ Row   1   2   3   4 
+  4    1   1   1   1
+  3    1   1   1   1
+  2    1   1   1   1
+  1    1   1   1   1
+
+ Material map for z-plane:     4
+ Row   1   2   3   4 
+  4    1   1   1   1
+  3    1   1   1   1
+  2    1   1   1   1
+  1    1   1   1   1
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   1 Row(j):   1
+   1.295E+00 1.382E+00 1.382E+00 1.295E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   1 Row(j):   2
+   1.382E+00 1.453E+00 1.453E+00 1.382E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   1 Row(j):   3
+   1.382E+00 1.453E+00 1.453E+00 1.382E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   1 Row(j):   4
+   1.295E+00 1.382E+00 1.382E+00 1.295E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   2 Row(j):   1
+   1.422E+00 1.478E+00 1.478E+00 1.422E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   2 Row(j):   2
+   1.478E+00 1.523E+00 1.523E+00 1.478E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   2 Row(j):   3
+   1.478E+00 1.523E+00 1.523E+00 1.478E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   2 Row(j):   4
+   1.422E+00 1.478E+00 1.478E+00 1.422E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   3 Row(j):   1
+   1.422E+00 1.478E+00 1.478E+00 1.422E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   3 Row(j):   2
+   1.478E+00 1.523E+00 1.523E+00 1.478E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   3 Row(j):   3
+   1.478E+00 1.523E+00 1.523E+00 1.478E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   3 Row(j):   4
+   1.422E+00 1.478E+00 1.478E+00 1.422E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   4 Row(j):   1
+   1.295E+00 1.382E+00 1.382E+00 1.295E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   4 Row(j):   2
+   1.382E+00 1.453E+00 1.453E+00 1.382E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   4 Row(j):   3
+   1.382E+00 1.453E+00 1.453E+00 1.382E+00
+
+ Source for Group:   1 Moment  0 0 0  z-plane(k):   4 Row(j):   4
+   1.295E+00 1.382E+00 1.382E+00 1.295E+00
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   1 Row(j):   1
+   6.977E-02 1.965E-02-1.965E-02-6.977E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   1 Row(j):   2
+   5.767E-02 1.613E-02-1.613E-02-5.767E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   1 Row(j):   3
+   5.767E-02 1.613E-02-1.613E-02-5.767E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   1 Row(j):   4
+   6.977E-02 1.965E-02-1.965E-02-6.977E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   2 Row(j):   1
+   4.465E-02 1.256E-02-1.256E-02-4.465E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   2 Row(j):   2
+   3.639E-02 1.017E-02-1.017E-02-3.639E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   2 Row(j):   3
+   3.639E-02 1.017E-02-1.017E-02-3.639E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   2 Row(j):   4
+   4.465E-02 1.256E-02-1.256E-02-4.465E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   3 Row(j):   1
+   4.465E-02 1.256E-02-1.256E-02-4.465E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   3 Row(j):   2
+   3.639E-02 1.017E-02-1.017E-02-3.639E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   3 Row(j):   3
+   3.639E-02 1.017E-02-1.017E-02-3.639E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   3 Row(j):   4
+   4.465E-02 1.256E-02-1.256E-02-4.465E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   4 Row(j):   1
+   6.977E-02 1.965E-02-1.965E-02-6.977E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   4 Row(j):   2
+   5.767E-02 1.613E-02-1.613E-02-5.767E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   4 Row(j):   3
+   5.767E-02 1.613E-02-1.613E-02-5.767E-02
+
+ Source for Group:   1 Moment  1 0 0  z-plane(k):   4 Row(j):   4
+   6.977E-02 1.965E-02-1.965E-02-6.977E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   1 Row(j):   1
+   6.977E-02 5.767E-02 5.767E-02 6.977E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   1 Row(j):   2
+   1.965E-02 1.613E-02 1.613E-02 1.965E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   1 Row(j):   3
+  -1.965E-02-1.613E-02-1.613E-02-1.965E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   1 Row(j):   4
+  -6.977E-02-5.767E-02-5.767E-02-6.977E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   2 Row(j):   1
+   4.465E-02 3.639E-02 3.639E-02 4.465E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   2 Row(j):   2
+   1.256E-02 1.017E-02 1.017E-02 1.256E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   2 Row(j):   3
+  -1.256E-02-1.017E-02-1.017E-02-1.256E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   2 Row(j):   4
+  -4.465E-02-3.639E-02-3.639E-02-4.465E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   3 Row(j):   1
+   4.465E-02 3.639E-02 3.639E-02 4.465E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   3 Row(j):   2
+   1.256E-02 1.017E-02 1.017E-02 1.256E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   3 Row(j):   3
+  -1.256E-02-1.017E-02-1.017E-02-1.256E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   3 Row(j):   4
+  -4.465E-02-3.639E-02-3.639E-02-4.465E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   4 Row(j):   1
+   6.977E-02 5.767E-02 5.767E-02 6.977E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   4 Row(j):   2
+   1.965E-02 1.613E-02 1.613E-02 1.965E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   4 Row(j):   3
+  -1.965E-02-1.613E-02-1.613E-02-1.965E-02
+
+ Source for Group:   1 Moment  0 1 0  z-plane(k):   4 Row(j):   4
+  -6.977E-02-5.767E-02-5.767E-02-6.977E-02
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   1
+  -9.618E-03-2.808E-03 2.808E-03 9.618E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   2
+  -2.808E-03-8.165E-04 8.165E-04 2.808E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   3
+   2.808E-03 8.165E-04-8.165E-04-2.808E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   1 Row(j):   4
+   9.618E-03 2.808E-03-2.808E-03-9.618E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   1
+  -6.588E-03-1.909E-03 1.909E-03 6.588E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   2
+  -1.909E-03-5.518E-04 5.518E-04 1.909E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   3
+   1.909E-03 5.518E-04-5.518E-04-1.909E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   2 Row(j):   4
+   6.588E-03 1.909E-03-1.909E-03-6.588E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   1
+  -6.588E-03-1.909E-03 1.909E-03 6.588E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   2
+  -1.909E-03-5.518E-04 5.518E-04 1.909E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   3
+   1.909E-03 5.518E-04-5.518E-04-1.909E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   3 Row(j):   4
+   6.588E-03 1.909E-03-1.909E-03-6.588E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   1
+  -9.618E-03-2.808E-03 2.808E-03 9.618E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   2
+  -2.808E-03-8.165E-04 8.165E-04 2.808E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   3
+   2.808E-03 8.165E-04-8.165E-04-2.808E-03
+
+ Source for Group:   1 Moment  1 1 0  z-plane(k):   4 Row(j):   4
+   9.618E-03 2.808E-03-2.808E-03-9.618E-03
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   1 Row(j):   1
+   1.035E-01 7.814E-02 7.814E-02 1.035E-01
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   1 Row(j):   2
+   7.814E-02 5.669E-02 5.669E-02 7.814E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   1 Row(j):   3
+   7.814E-02 5.669E-02 5.669E-02 7.814E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   1 Row(j):   4
+   1.035E-01 7.814E-02 7.814E-02 1.035E-01
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   2 Row(j):   1
+   2.845E-02 2.146E-02 2.146E-02 2.845E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   2 Row(j):   2
+   2.146E-02 1.556E-02 1.556E-02 2.146E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   2 Row(j):   3
+   2.146E-02 1.556E-02 1.556E-02 2.146E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   2 Row(j):   4
+   2.845E-02 2.146E-02 2.146E-02 2.845E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   3 Row(j):   1
+  -2.845E-02-2.146E-02-2.146E-02-2.845E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   3 Row(j):   2
+  -2.146E-02-1.556E-02-1.556E-02-2.146E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   3 Row(j):   3
+  -2.146E-02-1.556E-02-1.556E-02-2.146E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   3 Row(j):   4
+  -2.845E-02-2.146E-02-2.146E-02-2.845E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   4 Row(j):   1
+  -1.035E-01-7.814E-02-7.814E-02-1.035E-01
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   4 Row(j):   2
+  -7.814E-02-5.669E-02-5.669E-02-7.814E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   4 Row(j):   3
+  -7.814E-02-5.669E-02-5.669E-02-7.814E-02
+
+ Source for Group:   1 Moment  0 0 1  z-plane(k):   4 Row(j):   4
+  -1.035E-01-7.814E-02-7.814E-02-1.035E-01
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   1
+  -2.047E-02-5.782E-03 5.782E-03 2.047E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   2
+  -1.736E-02-4.860E-03 4.860E-03 1.736E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   3
+  -1.736E-02-4.860E-03 4.860E-03 1.736E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   1 Row(j):   4
+  -2.047E-02-5.782E-03 5.782E-03 2.047E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   1
+  -5.636E-03-1.592E-03 1.592E-03 5.636E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   2
+  -4.772E-03-1.336E-03 1.336E-03 4.772E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   3
+  -4.772E-03-1.336E-03 1.336E-03 4.772E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   2 Row(j):   4
+  -5.636E-03-1.592E-03 1.592E-03 5.636E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   1
+   5.636E-03 1.592E-03-1.592E-03-5.636E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   2
+   4.772E-03 1.336E-03-1.336E-03-4.772E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   3
+   4.772E-03 1.336E-03-1.336E-03-4.772E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   3 Row(j):   4
+   5.636E-03 1.592E-03-1.592E-03-5.636E-03
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   1
+   2.047E-02 5.782E-03-5.782E-03-2.047E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   2
+   1.736E-02 4.860E-03-4.860E-03-1.736E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   3
+   1.736E-02 4.860E-03-4.860E-03-1.736E-02
+
+ Source for Group:   1 Moment  1 0 1  z-plane(k):   4 Row(j):   4
+   2.047E-02 5.782E-03-5.782E-03-2.047E-02
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   1
+  -2.047E-02-1.736E-02-1.736E-02-2.047E-02
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   2
+  -5.782E-03-4.860E-03-4.860E-03-5.782E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   3
+   5.782E-03 4.860E-03 4.860E-03 5.782E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   1 Row(j):   4
+   2.047E-02 1.736E-02 1.736E-02 2.047E-02
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   1
+  -5.636E-03-4.772E-03-4.772E-03-5.636E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   2
+  -1.592E-03-1.336E-03-1.336E-03-1.592E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   3
+   1.592E-03 1.336E-03 1.336E-03 1.592E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   2 Row(j):   4
+   5.636E-03 4.772E-03 4.772E-03 5.636E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   1
+   5.636E-03 4.772E-03 4.772E-03 5.636E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   2
+   1.592E-03 1.336E-03 1.336E-03 1.592E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   3
+  -1.592E-03-1.336E-03-1.336E-03-1.592E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   3 Row(j):   4
+  -5.636E-03-4.772E-03-4.772E-03-5.636E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   1
+   2.047E-02 1.736E-02 1.736E-02 2.047E-02
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   2
+   5.782E-03 4.860E-03 4.860E-03 5.782E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   3
+  -5.782E-03-4.860E-03-4.860E-03-5.782E-03
+
+ Source for Group:   1 Moment  0 1 1  z-plane(k):   4 Row(j):   4
+  -2.047E-02-1.736E-02-1.736E-02-2.047E-02
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   1
+   2.462E-03 7.300E-04-7.300E-04-2.462E-03
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   2
+   7.300E-04 2.152E-04-2.152E-04-7.300E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   3
+  -7.300E-04-2.152E-04 2.152E-04 7.300E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   1 Row(j):   4
+  -2.462E-03-7.300E-04 7.300E-04 2.462E-03
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   1
+   6.830E-04 2.023E-04-2.023E-04-6.830E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   2
+   2.023E-04 5.960E-05-5.960E-05-2.023E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   3
+  -2.023E-04-5.960E-05 5.960E-05 2.023E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   2 Row(j):   4
+  -6.830E-04-2.023E-04 2.023E-04 6.830E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   1
+  -6.830E-04-2.023E-04 2.023E-04 6.830E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   2
+  -2.023E-04-5.960E-05 5.960E-05 2.023E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   3
+   2.023E-04 5.960E-05-5.960E-05-2.023E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   3 Row(j):   4
+   6.830E-04 2.023E-04-2.023E-04-6.830E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   1
+  -2.462E-03-7.300E-04 7.300E-04 2.462E-03
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   2
+  -7.300E-04-2.152E-04 2.152E-04 7.300E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   3
+   7.300E-04 2.152E-04-2.152E-04-7.300E-04
+
+ Source for Group:   1 Moment  1 1 1  z-plane(k):   4 Row(j):   4
+   2.462E-03 7.300E-04-7.300E-04-2.462E-03
+
+ Fixed inflow boundary conditions:
+
+ >> Discrete Ordinate     1
+
+ > Front boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Back boundary condition: 
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Left boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Right boundary condition: 
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Bottom boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01  8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01  8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+ > Top boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  3.5002E-01 -8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -3.5002E-01 -8.6889E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+
+ >> Discrete Ordinate     2
+
+ > Front boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Back boundary condition: 
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Left boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Right boundary condition: 
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Bottom boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+ > Top boundary condition: 
+  (mu,eta,xi)=   3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01  8.6889E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -3.5002E-01 -8.6889E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+
+ >> Discrete Ordinate     3
+
+ > Front boundary condition: 
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Back boundary condition: 
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (z,x):     0    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     0    1
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    0
+        x->           1           2           3           4
+  Spatial order in (z,x):     1    1
+        x->           1           2           3           4
+ > Left boundary condition: 
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Right boundary condition: 
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (y,z):     0    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     0    1
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    0
+        z->           1           2           3           4
+  Spatial order in (y,z):     1    1
+        z->           1           2           3           4
+ > Bottom boundary condition: 
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01  3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+ > Top boundary condition: 
+  (mu,eta,xi)=   8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=   8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01  3.5002E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+  (mu,eta,xi)=  -8.6889E-01 -3.5002E-01 -3.5002E-01
+  Spatial order in (x,y):     0    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     0    1
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    0
+        y->           1           2           3           4
+  Spatial order in (x,y):     1    1
+        y->           1           2           3           4
+
+
+ ------------------------- END INPUT ECHO ---------------------------------
+
+
+ -------------------------- THE SOLUTION ----------------------------------
+
+ Group   1 iterations...
+  Gr  1 It     1 Pos    1   4   1 Mom  0 0 0 DfMx   3.396E+00 Flx   3.396E+00  Time(s)     0.002
+  Gr  1 It     2 Pos    3   2   3 Mom  0 0 0 DfMx   9.411E-02 Flx   2.369E+00  Time(s)     0.002
+  Gr  1 It     3 Pos    2   2   2 Mom  0 0 0 DfMx   6.649E-03 Flx   2.384E+00  Time(s)     0.003
+  Gr  1 It     4 Pos    3   3   2 Mom  0 0 0 DfMx   4.783E-04 Flx   2.385E+00  Time(s)     0.003
+  Gr  1 It     5 Pos    2   2   2 Mom  0 0 0 DfMx   3.368E-05 Flx   2.385E+00  Time(s)     0.003
+  Gr  1 It     6 Pos    2   2   3 Mom  0 0 0 DfMx   2.343E-06 Flx   2.385E+00  Time(s)     0.004
+  Gr  1 It     7 Pos    3   3   3 Mom  0 0 0 DfMx   1.621E-07 Flx   2.385E+00  Time(s)     0.003
+  Gr  1 It     8 Pos    2   2   2 Mom  0 0 0 DfMx   1.118E-08 Flx   2.385E+00  Time(s)     0.003
+  Gr  1 It     9 Pos    3   3   3 Mom  0 0 0 DfMx   7.698E-10 Flx   2.385E+00  Time(s)     0.002
+  Gr  1 It    10 Pos    2   2   3 Mom  0 0 0 DfMx   5.298E-11 Flx   2.385E+00  Time(s)     0.002
+  Gr  1 It    11 Pos    2   2   2 Mom  0 0 0 DfMx   3.645E-12 Flx   2.385E+00  Time(s)     0.002
+
+  Group            1  converged in           12  iterations
+  Maximum error estimated:   2.511E-13 <   1.000E-12
+ Pos     3    3    2 Moment     0    0    0
+  Final iteration time     0.002 seconds
+
+ ========== Group    1 Converged Scalar Flux Zero Moment ==========
+  Plane(z) :            1  Row(j) :            1
+    3.536038E+00  3.096808E+00  3.096808E+00  3.536038E+00
+  Plane(z) :            1  Row(j) :            2
+    3.096808E+00  2.732475E+00  2.732475E+00  3.096808E+00
+  Plane(z) :            1  Row(j) :            3
+    3.096808E+00  2.732475E+00  2.732475E+00  3.096808E+00
+  Plane(z) :            1  Row(j) :            4
+    3.536038E+00  3.096808E+00  3.096808E+00  3.536038E+00
+  Plane(z) :            2  Row(j) :            1
+    2.896267E+00  2.615275E+00  2.615275E+00  2.896267E+00
+  Plane(z) :            2  Row(j) :            2
+    2.615275E+00  2.385484E+00  2.385484E+00  2.615275E+00
+  Plane(z) :            2  Row(j) :            3
+    2.615275E+00  2.385484E+00  2.385484E+00  2.615275E+00
+  Plane(z) :            2  Row(j) :            4
+    2.896267E+00  2.615275E+00  2.615275E+00  2.896267E+00
+  Plane(z) :            3  Row(j) :            1
+    2.896267E+00  2.615275E+00  2.615275E+00  2.896267E+00
+  Plane(z) :            3  Row(j) :            2
+    2.615275E+00  2.385484E+00  2.385484E+00  2.615275E+00
+  Plane(z) :            3  Row(j) :            3
+    2.615275E+00  2.385484E+00  2.385484E+00  2.615275E+00
+  Plane(z) :            3  Row(j) :            4
+    2.896267E+00  2.615275E+00  2.615275E+00  2.896267E+00
+  Plane(z) :            4  Row(j) :            1
+    3.536038E+00  3.096808E+00  3.096808E+00  3.536038E+00
+  Plane(z) :            4  Row(j) :            2
+    3.096808E+00  2.732475E+00  2.732475E+00  3.096808E+00
+  Plane(z) :            4  Row(j) :            3
+    3.096808E+00  2.732475E+00  2.732475E+00  3.096808E+00
+  Plane(z) :            4  Row(j) :            4
+    3.536038E+00  3.096808E+00  3.096808E+00  3.536038E+00
+
+
+  0 warnings have been issued
+
+
+ -------------------------- END SOLUTION ----------------------------------
+
+
+  Fortran95 Timing Estimates with CPU_TIME...
+
+     WorkDone   Absolute(s)      Difference(s)
+     InputWrk       0.011         0.011
+     SolveTot       0.044         0.033
+     PrintOut       0.044         0.000
+
+
+*********************   END PROGRAM  ************************
