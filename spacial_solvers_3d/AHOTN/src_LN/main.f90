@@ -47,7 +47,7 @@ CALL version
 CALL input(qdfile, xsfile, srcfile, mtfile,inflow_file,phi_file)
 
 ! Echo the input data:
-CALL echo(infile, outfile, qdfile, xsfile, srcfile, mtfile)
+!CALL echo(infile, outfile, qdfile, xsfile, srcfile, mtfile)
 
 ! Solve the transport problem:
 ! Solve will call dependency algorithms: inner, weight, sweep

@@ -25,14 +25,19 @@ REAL*8, DIMENSION(ordcb) :: b
 REAL*8 :: sig, mu, eta, xi, x, y, z, c, sgn
 
 ! Initialize the flux solution to zero
+!WRITE(8,*) "f: ", f, " e: ", e
 f=0.0d0
+!WRITE(8,*) "f: ", f, " e: ", e
 
 ! Start with loop over all angles
 DO n = 1, apo
    ! Set up the angles
    mu  = ang(n,1)
+   write(8,*) mu
    eta = ang(n,2)
+   write(8,*) eta
    xi  = ang(n,3)
+   write(8,*) xi
    
    ! Loop over xi<0 then xi>0
    DO zdir = 1, 2

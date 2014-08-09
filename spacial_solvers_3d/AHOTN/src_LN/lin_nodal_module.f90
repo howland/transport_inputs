@@ -89,6 +89,9 @@ subroutine ln_kernel(x,y,z,mu,eta,xi,sgm,sge,sgx,sig,c,inflow_x,inflow_y,inflow_
  
    ! Call for the calculation of the spatial weights
    ex = sig*x/mu 
+write(8,*) sig
+write(8,*) x
+write(8,*) mu
    ey = sig*y/eta
    ez = sig*z/xi
 !   alpha0 = wt0(ex) ; alpha1 = wt1(ex)
@@ -113,6 +116,15 @@ subroutine ln_kernel(x,y,z,mu,eta,xi,sgm,sge,sgx,sig,c,inflow_x,inflow_y,inflow_
 !write(6,101) real(sgm),real(sge),real(sgx)
 !write(6,101) b
 !101 FORMAT(1X,4ES25.16)
+
+!write(8,*) spwt0(ex)
+!write(8,*) ex,ey,ez
+!write(8,*) inflow_x
+!write(8,*) inflow_y
+!write(8,*) inflow_z
+!write(8,*) alpha0,beta0,gamma0
+!write(8,*) alpha1,beta1,gamma1
+!write(8,*) real(sgm),real(sge),real(sgx)
 
    ! Define a11 through a44 
    a11 = 1.0d0 + ex0 + ey0 + ez0 

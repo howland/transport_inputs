@@ -16,14 +16,17 @@ INTEGER :: i, j, k, t, u, v, m, g, gp
 REAL*8 :: xsct
 
 ALLOCATE(f(4,nx,ny,nz,ng), e(4,nx,ny,nz))
-
+f = 0.0d0
+!WRITE(8,*) "f: ", f, " e: ", e 
 ALLOCATE(cnvf(ng))
 
 ! Intitialize warn to indicate where warnings may occur
 warn = 0
 
 ! Read Pade tables for alpha0,alpha1
+
 call read_sp_wts
+!WRITE(8,*) "f: ", f, " e: ", e 
 
 ! Mark the beginning of the solution phase
 WRITE (8,*)
